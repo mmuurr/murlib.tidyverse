@@ -1,0 +1,20 @@
+Package: murlib.tidyverse
+Title: Tidyverse Enhancements
+Version: 0.0.0.9000
+Authors@R: 
+    person("Murat", "Tasan",
+           email = "mmuurr@gmail.com",
+	   role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-8155-2565"))
+Description: Various functions and objects that build upon {tidyverse} constructs.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Config/testthat/edition: 3
+Suggests: 
+    testthat (>= 3.0.0)
+Imports: 
+    checkmate (>= 2.1.0),
+    dplyr (>= 1.1.1),
+    purrr (>= 1.0.2)
